@@ -1,6 +1,6 @@
 #  Building the project 
 * Install sphinx 
-`pip install sphin`
+`pip install sphinx`
 
 * Clone the repo 
 `got clone $repo`

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# helloworld documentation build configuration file, created by
-# sphinx-quickstart on Sat Feb 17 19:42:45 2018.
+# BGSU documentation build configuration file, created by
+# sphinx-quickstart on Sun Feb 18 08:42:05 2018.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -31,15 +31,7 @@
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.autodoc',
-    'sphinx.ext.doctest',
-    'sphinx.ext.intersphinx',
-    'sphinx.ext.todo',
-    'sphinx.ext.coverage',
-    'sphinx.ext.mathjax',
-    'sphinx.ext.ifconfig',
-    'sphinx.ext.viewcode',
-    'sphinx.ext.githubpages']
+extensions = []
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -51,12 +43,12 @@ templates_path = ['_templates']
 source_suffix = '.rst'
 
 # The master toctree document.
-master_doc = 'master'
+master_doc = 'index'
 
 # General information about the project.
-project = 'helloworld'
-copyright = '2018, SHiva_Bhusal'
-author = 'SHiva_Bhusal'
+project = 'BGSU'
+copyright = '2018, Dr.Roy'
+author = 'Dr.Roy'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -83,7 +75,7 @@ exclude_patterns = []
 pygments_style = 'sphinx'
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
-todo_include_todos = True
+todo_include_todos = False
 
 
 # -- Options for HTML output ----------------------------------------------
@@ -123,7 +115,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'helloworlddoc'
+htmlhelp_basename = 'BGSUdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -150,8 +142,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'helloworld.tex', 'helloworld Documentation',
-     'SHiva\\_Bhusal', 'manual'),
+    (master_doc, 'BGSU.tex', 'BGSU Documentation',
+     'Dr.Roy', 'manual'),
 ]
 
 
@@ -160,7 +152,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'helloworld', 'helloworld Documentation',
+    (master_doc, 'bgsu', 'BGSU Documentation',
      [author], 1)
 ]
 
@@ -171,34 +163,10 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'helloworld', 'helloworld Documentation',
-     author, 'helloworld', 'One line description of project.',
+    (master_doc, 'BGSU', 'BGSU Documentation',
+     author, 'BGSU', 'One line description of project.',
      'Miscellaneous'),
 ]
 
 
 
-# -- Options for Epub output ----------------------------------------------
-
-# Bibliographic Dublin Core info.
-epub_title = project
-epub_author = author
-epub_publisher = author
-epub_copyright = copyright
-
-# The unique identifier of the text. This can be a ISBN number
-# or the project homepage.
-#
-# epub_identifier = ''
-
-# A unique identification for the text.
-#
-# epub_uid = ''
-
-# A list of files that should not be packed into the epub file.
-epub_exclude_files = ['search.html']
-
-
-
-# Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'https://docs.python.org/': None}
