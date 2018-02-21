@@ -11,8 +11,8 @@
 
 `make html`
 
-Acknowledgement: Standford Theme Package, 
-pip install sphinx_theme
-https://pypi.python.org/pypi/sphinx-theme/1.0
+* To install the current theme package 
+`pip install sphinx_theme`
 
+Currently, the stanford theme is chosen. 
 
