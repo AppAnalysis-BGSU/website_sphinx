@@ -11,4 +11,8 @@
 
 `make html`
 
-Acknowledgement: Standford Theme Package, https://pypi.python.org/pypi/sphinx-theme/1.0
+Acknowledgement: Standford Theme Package, 
+pip install sphinx_theme
+https://pypi.python.org/pypi/sphinx-theme/1.0
+
+
