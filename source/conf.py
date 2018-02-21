@@ -49,9 +49,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'BGSU'
-copyright = '2018, Dr.Roy'
-author = 'Dr.Roy'
+project = 'Dr. Sankardas Roy'
+copyright = '2018, Dr.Sankardas Roy'
+author = 'Dr.Sankardas Roy'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -105,7 +105,7 @@ html_static_path = ['_static']
 #
 # This is required for the alabaster theme
 # refs: http://alabaster.readthedocs.io/en/latest/installation.html#sidebars
-html_sidebars = {
+'''html_sidebars = {
     '**': [
         'about.html',
         'navigation.html',
@@ -114,6 +114,7 @@ html_sidebars = {
         'donate.html',
     ]
 }
+'''
 
 
 # -- Options for HTMLHelp output ------------------------------------------
